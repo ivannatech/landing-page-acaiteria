@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Codificação -->
+    <meta charset="UTF-8">
+
+    <!-- Responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título e descrição -->
+    <title>Açaiteria Tech</title>
+    <meta name="description" content="Explore as vaiações do açaí favorito entre os devs ao redor do mundo!">
+
+    <!-- Autor -->
+    <meta name="author" content="Ivanna Tech">
+
+    <!-- Indexação -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon (pode substituir com seu próprio ícone) -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/71414590?s=96&v=4" type="image/png">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Ivanna Tech | Desenvolvedora em retomada">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/71414590?s=96&v=4">
+    <meta property="og:url" content="https://github.com/ivannatech">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ivanna Tech | Desenvolvedora em retomada">
+    <meta name="twitter:description"
+        content="Pós em Full Stack, apaixonada por tecnologia e organização. Focada em React, React Native e Node.js.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/71414590?s=96&v=4">
+
+    <!-- Pré-carregamento de fontes (exemplo com Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="logo">Açaiteria Tech</span>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#receitas">Açaís</a></li>
+                <li><a href="#novidades">Novidades</a></li>
+                <li><a href="#avaliacoes">Melhor avaliados</a></li>
+            </ul>
+            <a class="github" href="https://github.com/ivannatech" target="_blank">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background-hero">
+            <section class="hero">
+
+                <header class="hero-conteudo">
+                    <span id="novidades" class="destaque">novidades</span>
+                    <h1>Encontre o açaí perfeito!</h1>
+                    <hr>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações do açaí favorito entre os
+                        <strong>devs</strong> ao redor do mundo!
+                    </h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="/assets/acai-1.jpg" alt="xícara-de-sobremesa-brasileira-com-morangos"></figure>
+                    <figure><img src="/assets/acai-2.jpg" alt="taça-de-sobremesa-de-açaí"></figure>
+                    <figure><img src="/assets/acai-3.jpg" alt="taça-de-sobremesa-brasileira-açaí-com-frutas"></figure>
+                    <figure><img src="/assets/acai-4.jpg" alt="xícara-de-sobremesa-de-açaí-com-frutas"></figure>
+                    <figure><img src="/assets/acai-5.jpg" alt="variedade-de-tigela-de-acai-doce"></figure>
+                    <figure><img src="/assets/acai-6.jpg" alt="taça-de-sobremesa-brasileira-com-nozes"></figure>
+                    <figure><img src="/assets/acai-7.jpg" alt="xícara-de-sobremesa-brasileira-de-açaí"></figure>
+                    <figure><img src="/assets/acai-8.jpg" alt="xícara-de-sobremesa-brasileira-com-castanha-de-caju">
+                    </figure>
+                    <figure><img src="/assets/acai-9.jpg" alt="xícara-de-sobremesa-de-acai-com-kiwi"></figure>
+                    <figure><img src="/assets/acai-10.jpg" alt="xícara-de-sobremesa-brasileira-com-caju"></figure>
+                    <figure><img src="/assets/acai-11.jpg" alt="xícara-de-sobremesa-de-açaí-com-granola"></figure>
+                    <figure><img src="/assets/acai-12.jpg" alt="smoothie-de-açaí-com-mirtilo"></figure>
+                </div>
+            </section>
+        </div>
+
+        <section>
+            <button class="botao-container"><img src="/assets/button.png" alt="botão rolar tela para baixo"></button>
+        </section>
+
+        <section id="receitas" class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque">açaís</span>
+                <h2 class="receitas-titulo">Confira os últimos açaís avaliados</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nos açaís mais amados!</p>
+            </header>
+
+            <div id="avaliacoes" class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque">em alta 🔥</span>
+                            <h3 class="receita-titulo">Açaí Debugado</h3>
+                        </div>
+                        <p class="receita-avaliacao">"Sem bugs, só sabor!" 5/5</p>
+                    </header>
+                    <p class="receita-descricao">O Açaí Debugado é feito para quem busca uma
+                        experiência pura e sem erros.
+                        Combinando a base clássica do açaí com morango fresco, granola crocante, leite condensado e
+                        paçoca triturada, essa opção é um verdadeiro código limpo no seu paladar. Ideal para começar o
+                        dia ou reiniciar com energia!
+                    </p>
+                    <div class="receita-autor">
+                        <img src="/assets/user-1.png" alt="foto do Bruno Compilado">
+                        <span>Bruno Compilado</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque">em alta 🔥</span>
+                            <h3 class="receita-titulo">Açaí Full Stack</h3>
+                        </div>
+                        <p class="receita-avaliacao">"Extraordinário" 5/5</p>
+                    </header>
+                    <p class="receita-descricao">O Açaí Full Stack é para quem gosta de tudo: da estrutura até o
+                        visual final! Uma explosão de sabores com banana fatiada, Nutella, leite em pó e
+                        castanha-do-pará. Essa combinação entrega o melhor de todas as camadas, como um bom projeto bem
+                        arquitetado.
+                    </p>
+                    <div class="receita-autor">
+                        <img src="/assets/user-2.png" alt="foto da Lívia Codeira">
+                        <span>Lívia Codeira</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque">em alta 🔥</span>
+                            <h3 class="receita-titulo">Açaí Byte Gelado</h3>
+                        </div>
+                        <p class="receita-avaliacao">"Um byte gelado de energia!" 3/5</p>
+                    </header>
+                    <p class="receita-descricao"> Refresque seu sistema com o Açaí Byte Gelado! Açaí na medida certa,
+                        coberto com sorvete de
+                        creme, calda de chocolate, cookies crocantes e coco ralado. Uma sobremesa que processa alegria e
+                        armazena bons momentos.
+                    </p>
+                    <div class="receita-autor">
+                        <img src="/assets/user-3.png" alt="foto do Rafael Backendão">
+                        <span>Rafael Backendão</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque">em alta 🔥</span>
+                            <h3 class="receita-titulo">Açaí Cloud 9</h3>
+                        </div>
+                        <p class="receita-avaliacao">"Te leva direto pra nuvem!" 4/5</p>
+                    </header>
+                    <p class="receita-descricao">Se você busca leveza e suavidade, o Açaí Cloud 9 é a escolha perfeita.
+                        Com chantilly fofo,
+                        blueberry azedinho, mel natural e um toque saudável de chia, essa combinação te conecta direto
+                        com o sabor celestial. Login garantido na felicidade!
+                    </p>
+                    <div class="receita-autor">
+                        <img src="/assets/user-4.png" alt="foto da Ana Script">
+                        <span>Ana Script</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &lt;AÇAITERIA TECH /&gt; 2025</p>
+        <p>Feito com muito 💛 e açaí por <a href="https://github.com/ivannatech" target="_blank"
+                rel="noopener noreferrer"><strong>IvannaTech</strong></a></p>
+    </footer>
+</body>
+
+</html>

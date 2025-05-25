@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap");
+
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-color-ligth);
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+/* === VARIÁVEIS === */
+:root {
+  --primary-color: #f0c758;
+  --secondary-color: #e9db8b;
+  --text-color: #c8a8dd;
+  --text-color-ligth: #f6e4fd;
+  --bg-purple: #554361;
+  --bg-dark: #312638;
+  --white: #ffffff;
+}
+
+/* === HEADER === */
+a {
+  text-decoration: none;
+  color: var(--text-color-ligth);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: var(--text-color-ligth);
+}
+.menu a:hover {
+  color: var(--primary-color);
+}
+
+.github {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.github:hover {
+  color: var(--text-color-ligth);
+  font-weight: 600;
+}
+
+/* === MAIN SECTIONS === */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.background-hero {
+  background-color: var(--bg-purple);
+}
+
+.hero {
+  max-width: 1120px;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+
+  padding: 0rem 2rem;
+  margin: auto;
+
+  overflow: clip;
+}
+
+.hero-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.destaque {
+  font-family: Epilogue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+hr {
+  width: 15rem;
+  height: 0.125rem;
+  border-color: var(--secondary-color);
+}
+
+.hero-subtitulo {
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.hero-imagens-container {
+  max-width: 48%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -1rem;
+}
+
+.hero-imagens-container > figure > img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.botao-container {
+  width: 5%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate("0, -50%");
+  border-radius: 0.5rem;
+}
+
+.receitas {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.receitas-cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receitas-titulo {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.receitas-subtitulo {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.receitas-card-container {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: auto;
+  margin: auto;
+}
+
+.receitas-card {
+  background: var(--bg-purple);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+}
+
+.receitas-card-cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.receitas-card-cabecalho-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receita-titulo {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.receita-avaliacao {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.receita-descricao {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.receita-autor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.receita-autor > img {
+  border-radius: 30rem;
+  width: 2.5rem;
+}
+
+/* === FOOTER === */
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #23181a;
+  gap: 0.5rem;
+}
+
+strong {
+  color: var(--primary-color);
+}
