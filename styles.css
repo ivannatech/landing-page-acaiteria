@@ -188,25 +188,26 @@ hr {
 }
 
 .receitas-card-container {
-  padding: 0rem 10rem;
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-around;
   flex-wrap: wrap;
-  width: auto;
+  gap: 2rem;
+  justify-content: center;
   margin: auto;
+  padding: 2rem;
+  max-width: 1120px;
 }
 
 .receitas-card {
   background: var(--bg-purple);
   padding: 2rem;
   border-radius: 0.5rem;
+  flex: 1 1 300px;    
+  max-width: 350px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  flex-basis: 29rem;
 }
+
 
 .receitas-card-cabecalho {
   display: flex;
