@@ -6,7 +6,16 @@ Landing page de uma açaiteria moderna, feita especialmente para a comunidade de
 
 - **HTML5**  
 - **CSS3**  
-- **Google Fonts**  
+- **Google Fonts** (Inter, Teko, Montserrat, Epilogue) 
+- **Responsividade** com `@media queries` 
+
+## 📱 Responsividade
+
+O layout se adapta dinamicamente para diferentes tamanhos de tela:
+
+- **Desktops grandes** (> 1024px): layout em duas colunas
+- **Tablets** (768px – 1024px): layout reorganizado com espaçamento otimizado
+- **Smartphones** (< 768px): layout em coluna única com imagens e textos redimensionados para boa legibilidade
 
 ## 🌟 Funcionalidades
 
