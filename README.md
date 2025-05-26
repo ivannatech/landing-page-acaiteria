@@ -31,10 +31,20 @@ O layout se adapta dinamicamente para diferentes tamanhos de tela:
 - **Açaí Byte Gelado** — Sorvete, cookies e calda para processar pura alegria.
 - **Açaí Cloud 9** — Chantilly, blueberry e mel para te levar direto pra nuvem.
 
-## 👩‍💻 Desenvolvido por
+## 📸 Preview
 
-Feito com 💛 e açaí por [Ivanna Tech](https://github.com/ivannatech)
+![Preview do formulário](/assets/preview-acaiteria-tech.png) 
+
+## 🚀 Deploy
+
+Acesse o projeto online pelo GitHub Pages:  
+🔗 [Landing Page Açaiteria Tech](https://ivannatech.github.io/landing-page-acaiteria/)
 
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👩‍💻 Desenvolvido por
+
+Feito com 💛 e açaí por [Ivanna Tech](https://github.com/ivannatech)
+
